@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Project from './components/Project'
+import Skills from './components/skills'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className='max-w-screen min-h-screen font-poppins [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]'>
         <Navbar />
         <Hero />
+        <Skills />
         <Project />
       </div>
     </>

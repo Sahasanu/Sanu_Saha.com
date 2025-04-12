@@ -1,10 +1,11 @@
 import React from 'react'
-import sample from "../assets/Sample.png"
-import insta from "../assets/insta.png"
-import github from "../assets/github.png"
-import linkdin from "../assets/linkedin.png"
+import sample from "../assets/Hero/Sample.png"
+import insta from "../assets/Hero/insta.png"
+import github from "../assets/Hero/github.png"
+import linkdin from "../assets/Hero/linkedin.png"
 
 const Hero = () => {
+  
   return (
     <div className='text-white flex mt-[5vh]'>
       <div className="left w-[50%] pl-[5vw]">
@@ -16,7 +17,7 @@ const Hero = () => {
             I am a passionate web developer focused on building efficient, scalable, and user-centric solutions. With a strong interest in technology and continuous learning, I approach every project with creativity and a problem-solving mindset.</p>
         </div>
         <div className="btn mt-[3vh] ">
-          <button className='bg-orange-300 w-[9vw] p-[1vh] rounded-[5px] font-bold text-black'>My Work</button>
+          <button  className='bg-orange-300 w-[9vw] p-[1vh] rounded-[5px] font-bold text-black'>Contact Me</button>
         </div>
       </div>
       <div className="right w-[50%] flex ">
