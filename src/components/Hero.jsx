@@ -5,27 +5,32 @@ import github from "../assets/Hero/github.png"
 import linkdin from "../assets/Hero/linkedin.png"
 
 const Hero = () => {
-  
   return (
-    <div className='text-white flex mt-[5vh]'>
-      <div className="left w-[50%] pl-[5vw]">
-        <p className="hey m-0 text-[28px]">Hey it me..</p>
-        <p className="name text-[4em] font-[700] text-orange-300">Sanu Saha</p>
-        <div className="sbio w-[90%]">
-          <p className='font-bold text-[24px] mt-[2vh]'>Web Developer | Frontend & Backend | Tech Enthusiast </p>
-          <p className='text-[16px] mt-[2vh]'>
-            I am a passionate web developer focused on building efficient, scalable, and user-centric solutions. With a strong interest in technology and continuous learning, I approach every project with creativity and a problem-solving mindset.</p>
+    <div className='text-white flex flex-col-reverse lg:flex-row mt-[5vh] pt-[5vh] items-center lg:items-start'>
+      {/* Left Section */}
+      <div className="left mt-[2vh] lg:mt-[0] w-full lg:w-[50%] lg:pl-[5vw] pl-[15px] pr-[15px]  lg:text-left">
+        <p className="hey m-0 text-[20px] lg:text-[28px]">Hey it me..</p>
+        <p className="name text-[40px] m-0 lg:text-[4em] font-[700] text-orange-300">Sanu Saha</p>
+        <div className="sbio lg:w-[90%] mx-auto lg:mx-0">
+          <p className='font-bold text-[19px]  w-full lg:text-[24px] mt-[2vh]'>Web Developer | Frontend & Backend | Tech Enthusiast </p>
+          <p className='text-[14px] lg:text-[16px] mt-[2vh]'>
+            I am a passionate web developer focused on building efficient, scalable, and user-centric solutions. With a strong interest in technology and continuous learning, I approach every project with creativity and a problem-solving mindset.
+          </p>
         </div>
-        <div className="btn mt-[3vh] ">
-          <button  className='bg-orange-300 w-[9vw] p-[1vh] rounded-[5px] font-bold text-black'>Contact Me</button>
+        <div className="btn mt-[3vh] w-[100%] lg:text-start text-center">
+          <button className='bg-orange-300 w-[50%] lg:w-[9vw] p-[1vh] rounded-[5px] font-bold text-black'>Contact Me</button>
         </div>
       </div>
-      <div className="right w-[50%] flex ">
-        <div className="img w-[90%] "><img className='mr-auto ml-auto w-[350px]' src={sample} alt="" /></div>
-        <div className="links  w-[10%] flex-col flex  gap-[15px] items-center justify-center">
-          <a href="https://github.com/Sahasanu" target='_blank'> <img className='w-[24px]' src={github} alt="" /></a>
-          <a href="" target='_blank'><img className='w-[24px]' src={linkdin} alt="" /></a>
-          <a href="" target='_blank'><img className='w-[20px]' src={insta} alt="" /></a>
+
+      {/* Right Section */}
+      <div className="right w-[90%] lg:w-[50%] flex lg:flex-row items-center lg:items-center">
+        <div className="img w-[90%] lg:w-[90%] mx-auto lg:mx-0">
+          <img className='w-[250px] lg:w-[350px] mx-auto' src={sample} alt="" />
+        </div>
+        <div className="links w-[10%] flex-col flex gap-[2vh] lg:gap-[3vh] items-center  ">
+          <a href="https://github.com/Sahasanu" target='_blank'> <img className='w-[20px] lg:w-[24px]' src={github} alt="" /></a>
+          <a href="" target='_blank'><img className='w-[20px] lg:w-[24px]' src={linkdin} alt="" /></a>
+          <a href="" target='_blank'><img className='w-[18px] lg:w-[20px]' src={insta} alt="" /></a>
         </div>
       </div>
     </div>
