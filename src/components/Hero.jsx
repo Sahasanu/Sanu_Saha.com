@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="btn mt-[3vh] w-[100%] lg:text-start text-center">
-          <button className='bg-orange-300 w-[50%] lg:w-[9vw] p-[1vh] rounded-[5px] font-bold text-black'>Contact Me</button>
+          <button className='bg-orange-300 w-[60%] lg:w-[10vw] p-[1vh] rounded-[5px] font-bold text-black'><a href="https://www.linkedin.com/in/sanu-saha-a67934354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Connect With Me</a></button>
         </div>
       </div>
 
@@ -29,8 +29,8 @@ const Hero = () => {
         </div>
         <div className="links w-[10%] flex-col flex gap-[2vh] lg:gap-[3vh] items-center  ">
           <a href="https://github.com/Sahasanu" target='_blank'> <img className='w-[20px] lg:w-[24px]' src={github} alt="" /></a>
-          <a href="" target='_blank'><img className='w-[20px] lg:w-[24px]' src={linkdin} alt="" /></a>
-          <a href="" target='_blank'><img className='w-[18px] lg:w-[20px]' src={insta} alt="" /></a>
+          <a href="https://www.linkedin.com/in/sanu-saha-a67934354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><img className='w-[20px] lg:w-[24px]' src={linkdin} alt="" /></a>
+          <a href="https://www.instagram.com/_sanu_saha_?igsh=YWk2azlwMnVmNHg0" target='_blank'><img className='w-[18px] lg:w-[20px]' src={insta} alt="" /></a>
         </div>
       </div>
     </div>
