@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Right Section */}
       <div className="right w-[90%] lg:w-[50%] flex  items-center "> 
-        <div className="img w-[90%] lg:w-[90%]  mx-auto lg:mx-0 border">
+        <div className="img w-[90%] lg:w-[90%]  mx-auto lg:mx-0 ">
           <img className='w-[100%] lg:w-[55%] mx-auto' src={sample} alt="" />
         </div>
         <div className="links w-[10%] flex-col flex gap-[2vh] lg:gap-[3vh] items-center  ">
