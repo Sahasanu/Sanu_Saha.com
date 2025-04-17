@@ -1,6 +1,6 @@
 import React from 'react'
 import sample from "../assets/Hero/Sample.png"
-import insta from "../assets/Hero/insta.png"
+import nsta from "../assets/Hero/insta.png"
 import github from "../assets/Hero/github.png"
 import linkdin from "../assets/Hero/linkedin.png"
 
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="links w-[10%] flex-col flex gap-[2vh] lg:gap-[3vh] items-center  ">
           <a href="https://github.com/Sahasanu" target='_blank'> <img className='w-[20px] lg:w-[24px]' src={github} alt="" /></a>
           <a href="https://www.linkedin.com/in/sanu-saha-a67934354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><img className='w-[20px] lg:w-[24px]' src={linkdin} alt="" /></a>
-          <a href="https://www.instagram.com/_sanu_saha_?igsh=YWk2azlwMnVmNHg0" target='_blank'><img className='w-[18px] lg:w-[20px]' src={insta} alt="" /></a>
+          <a href="https://www.instagram.com/_sanu_saha_?igsh=YWk2azlwMnVmNHg0" target='_blank'><img className='w-[18px] lg:w-[20px]' src={nsta} alt="" /></a>
         </div>
       </div>
     </div>
