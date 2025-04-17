@@ -3,16 +3,23 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import X_photo from "../assets/Projects/X_photo.png"
-import todo from "../assets/Projects/to_do.png"
+import manager from "../assets/Projects/manegar.png"
+import todo from "../assets/Projects/todo.png"
 import spotify from "../assets/Projects/spotify.png"
 
 
 function Project() {
     const projects = [
         {
+            name: "Password Manager",
+            description: "A secure password manager that stores credentials in local storage and a database, ensuring protection and reliability. Simplify digital security with easy access to your passwords.",
+            image:manager ,
+            link: "https://github.com/Sahasanu/Password-Manegar",
+            tecnhologies: ["Html","React","Tailwind","Mongo","Express"]
+        },
+        {
             name: "TO-DO App",
-            description: "A task management app that stores todos in browser's local storage, allowing persistent data between sessions",
+            description: "A simple and intuitive to-do app to manage your tasks efficiently. Stay organized with features that let you plan, track, and prioritize your work. Your productivity, streamlined.",
             image: todo,
             link: "https://github.com/Sahasanu/Web-Devlopment-Projects/tree/main/To-Do%20App",
             tecnhologies: ["Html", "Tailwind", "JavaScript", "React"]
@@ -24,13 +31,7 @@ function Project() {
             link: "https://github.com/Sahasanu/Web-Devlopment-Projects/tree/main/Spotify%20Clone",
             tecnhologies: ["Html", "Css", "JavaScript"]
         },
-        {
-            name: "X clone",
-            description: "A replica of X (Twitter) platform featuring core components with Tailwind CSS styling. Frontend-only implementation responsive design.",
-            image: X_photo,
-            link: "https://github.com/Sahasanu/Web-Devlopment-Projects/tree/main/X%20Clone",
-            tecnhologies: ["Html", "Tailwind"]
-        },
+       
     ]
 
     const ProjectCard = ({ project }) => (
@@ -49,7 +50,7 @@ function Project() {
             </div>
             <div className="link w-[95%] text-center mt-[3vh]">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <button className='bg-[rgb(153,106,255)] w-[80%] h-[6vh] rounded-[6px] font-bold text-[16px] md:text-[18px] hover:cursor-pointer mb-[2vh]'>
+                    <button className='bg-[rgb(159,116,252)] w-[80%] h-[6vh] rounded-[6px] font-bold text-[16px] md:text-[18px] hover:cursor-pointer mb-[2vh] '>
                         Github Link
                     </button>
                 </a>
