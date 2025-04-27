@@ -11,16 +11,16 @@ const Hero = () => {
       {/* Left Section */}
       <div className="left mt-[2vh] lg:mt-[0] w-full lg:w-[50%] lg:pl-[5vw] pl-[15px] pr-[15px]  lg:text-left">
         <p className="hey m-0 text-[20px] lg:text-[28px]">Hey it me..</p>
-        <p className="name text-[40px] m-0 lg:text-[4em] font-[700] text-orange-300">Sanu Saha</p>
+        <p className="name text-[40px] m-0 lg:text-[3em] font-[700] text-orange-300">Sanu Saha</p>
         <div className="sbio lg:w-[90%] mx-auto lg:mx-0">
-          <p className='font-bold text-[19px]  w-full lg:text-[24px] mt-[2vh]'>Web Developer | Frontend & Backend | Tech Enthusiast </p>
-          <p className='text-[16px] lg:text-[24px] mt-[2vh]'>
+          <p className='font-bold text-[19px]  w-full lg:text-[20px] mt-[2vh]'>Web Developer | Frontend & Backend | Tech Enthusiast </p>
+          <p className='text-[16px] lg:text-[20px] mt-[2vh]'>
             I am a passionate web developer focused on building efficient, scalable, and user-centric solutions. With a strong interest in technology and continuous learning, I approach every project with creativity and a problem-solving mindset.
           </p>
         </div>
 
         <div className="btn mt-[3vh] w-[100%] lg:text-start text-center">
-          <button className='bg-orange-300 w-[60%] lg:w-[10vw] lg:p-[1vh] p-[1vh] lg:text-[20px] text-[16px] rounded-[5px] font-bold text-black'><a href="https://www.linkedin.com/in/sanu-saha-a67934354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Connect With Me</a></button>
+          <button className='bg-orange-300 w-[60%] lg:w-[13vw] lg:p-[1vh] p-[1vh] lg:text-[20px] text-[16px] rounded-[5px] font-bold text-black'><a href="https://www.linkedin.com/in/sanu-saha-a67934354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Connect With Me</a></button>
         </div>
       </div>
 
