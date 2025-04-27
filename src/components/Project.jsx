@@ -5,7 +5,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import manegar from "../assets/manegar.png"
 import todo from "../assets/todo.png"
-import spotify from "../assets/spotify.png"
+import Spotify from "../assets/spotify.png"
 
 
 function Project() {
@@ -27,7 +27,7 @@ function Project() {
         {
             name: "Music Player -Spotify Clone",
             description: "A replica of X (Twitter) platform featuring core components with Tailwind CSS styling. Frontend-only implementation responsive design.",
-            image: spotify,
+            image: Spotify,
             link: "https://github.com/Sahasanu/Web-Devlopment-Projects/tree/main/Spotify%20Clone",
             tecnhologies: ["Html", "Css", "JavaScript"]
         },
