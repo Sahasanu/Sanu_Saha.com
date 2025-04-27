@@ -8,6 +8,9 @@
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
+  "start": "react-scripts start",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
   "deploy": "gh-pages -d dist"
 }
 ,

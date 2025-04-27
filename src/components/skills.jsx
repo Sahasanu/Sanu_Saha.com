@@ -3,13 +3,13 @@ import React from 'react'
 import html from "../assets/Skills/html.svg"
 import react from "../assets/Skills/react.svg"
 import Express from "../assets/Skills/Express.png"
-import Mongo from "../assets/Skills/Mongo.svg"
+import mongo from "../assets/Skills/mongo.svg"
 import js from "../assets/Skills/js.svg"
 import Css from "../assets/Skills/css.svg"
 import Clan from "../assets/Skills/C.png"
 import node from "../assets/Skills/node.svg"
 import tailwind from "../assets/Skills/tailwind.svg"
-import Next from "../assets/Skills/next.svg"
+import next from "../assets/Skills/next.svg"
 
 const Skills = () => {
     const skillsList = [
@@ -43,11 +43,11 @@ const Skills = () => {
         },
         {
             name: "Mongo",
-            image: Mongo,
+            image: mongo,
         },
         {
             name: "Next.js",
-            image: Next,
+            image: next,
         },
         {
             name: "C",

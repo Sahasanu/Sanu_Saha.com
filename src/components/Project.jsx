@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import manager from "../assets/Projects/manegar.png"
+import manegar from "../assets/Projects/manegar.png"
 import todo from "../assets/Projects/todo.png"
 import spotify from "../assets/Projects/spotify.png"
 
@@ -13,7 +13,7 @@ function Project() {
         {
             name: "Password Manager",
             description: "A secure password manager that stores credentials in local storage and a database, ensuring protection and reliability. Simplify digital security with easy access to your passwords.",
-            image:manager ,
+            image:manegar ,
             link: "https://github.com/Sahasanu/Password-Manegar",
             tecnhologies: ["Html","React","Tailwind","Mongo","Express"]
         },
