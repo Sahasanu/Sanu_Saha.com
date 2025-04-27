@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import manegar from "../assets/Projects/manegar.png"
-import todo from "../assets/Projects/todo.png"
-import spotify from "../assets/Projects/spotify.png"
+import manegar from "../assets/manegar.png"
+import todo from "../assets/todo.png"
+import spotify from "../assets/spotify.png"
 
 
 function Project() {
